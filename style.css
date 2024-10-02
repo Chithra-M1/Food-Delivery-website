@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color:rgb(247, 30, 30);
+    color:white;
+}
+header{
+    position: sticky;
+    top: 0px;
+    
+}
+.navbar-brand{
+    font-family: "Roboto Slab", serif;
+}
+.navbar{
+    margin: 10px;
+    width: 100%;
+    height: 60px;
+}
+#welcome{
+    position: absolute;
+    top: 50%;
+    left:65%;
+    color: white;
+    
+    padding: 50px;
+}
+.signin{
+    position: absolute;
+    top: 20%;
+    left:80%;
+}
+span{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color:rgb(247, 30, 30) ;
+}
+.starter{
+    
+    width:90%;
+    align-items:center;
+}
+.menu{
+    margin: 40px;
+    padding: 100px;
+    align-items:center;
+
+}
+/* deserts */
+.desert{
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+
+}
+.box{
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgb(96, 89, 89);
+}
+.des{
+    display: block;
+    width: 100%;
+    box-radius:5px ;
+    height: 150px;
+}
+.box:hover{
+    transform: scale(1.3);
+    z-index:2;
+}
+.contact{
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://images.unsplash.com/photo-1611915365928-565c527a0590?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.abo{
+    height: 600px;
+}
